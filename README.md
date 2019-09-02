@@ -1,6 +1,6 @@
 # ASUS Y5000U(X507UBR) for macOS Catalina
 
-- [Enable macOS HiDPI](https://github.com/xzhih/one-key-hidpi) 
+- [Enable macOS HiDPI](https://github.com/lgs3137/ASUS_Y5000U_X507UBR-macOS/one-key-hidpi) 
 - [CPUFriend](https://github.com/daliansky/XiaoMi-Pro/tree/master/one-key-cpufriend) 
 
 ## Configuration
@@ -33,6 +33,7 @@
 
 - 2019.09.02
 	- Update Hotpatch & Kext & OC.
+	- Added one-key-hidpi.
 	- 默认Clover引导，若要使用 OC 引导，需在Win下手动添加 \EFI\BOOT\OC.efi 为引导项即可选择进入OC.
 
 - 2019.09.01
