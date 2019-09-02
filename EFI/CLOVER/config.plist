@@ -354,26 +354,6 @@
 				<key>Replace</key>
 				<data>AAAAAAAAAAAAAAA=</data>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar</string>
-				<key>Name</key>
-				<string>com.apple.driver.AppleIntelLpssI2C</string>
-				<key>Find</key>
-				<data>SU9LaXQ=</data>
-				<key>Replace</key>
-				<data>SU9LaXM=</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar</string>
-				<key>Name</key>
-				<string>com.apple.driver.AppleIntelLpssI2CController</string>
-				<key>Find</key>
-				<data>SU9LaXQ=</data>
-				<key>Replace</key>
-				<data>SU9LaXM=</data>
-			</dict>
 		</array>
 		<key>KernelToPatch</key>
 		<array>
@@ -429,7 +409,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02716701CDHWVPA8</string>
+		<string>C02752306GUF1171H</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -459,9 +439,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro14,1</string>
 		<key>SerialNumber</key>
-		<string>C02TL3Y5HV29</string>
+		<string>C02VW1VTHV29</string>
 		<key>SmUUID</key>
-		<string>4A0BA47B-6155-4623-B2F4-13B84A461A73</string>
+		<string>AEA18B07-D5AA-4B00-A64E-A7E9A844A961</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>

@@ -31,6 +31,10 @@
 
 ## Change Log:
 
+- 2019.09.02
+	- Update Hotpatch & Kext & OC.
+	- 默认Clover引导，若要使用 OC 引导，需在Win下手动添加 \EFI\BOOT\OC.efi 为引导项即可选择进入OC.
+
 - 2019.09.01
 	- Mojave Clover EFI uploaded on Git.
 
