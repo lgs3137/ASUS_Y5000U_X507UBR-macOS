@@ -1,6 +1,6 @@
 # ASUS Y5000U(X507UBR) for macOS Catalina
 
-- [Enable macOS HiDPI](https://github.com/lgs3137/ASUS_Y5000U_X507UBR-macOS/one-key-hidpi) 
+- [Enable macOS HiDPI](https://github.com/lgs3137/ASUS_Y5000U_X507UBR-macOS/tree/master/one-key-hidpi) 
 - [CPUFriend](https://github.com/daliansky/XiaoMi-Pro/tree/master/one-key-cpufriend) 
 
 ## Configuration
