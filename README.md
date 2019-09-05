@@ -1,7 +1,7 @@
 # ASUS Y5000U(X507UBR) for macOS Catalina
 
-- [Enable macOS HiDPI](https://github.com/lgs3137/ASUS_Y5000U_X507UBR-macOS/tree/master/one-key-hidpi) 
-- [CPUFriend](https://github.com/daliansky/XiaoMi-Pro/tree/master/one-key-cpufriend) 
+- [Enable macOS HiDPI](https://github.com/lgs3137/ASUS_Y5000U_X507UBR-macOS/tree/master/one-key-hidpi)
+- [CPUFriend](https://github.com/daliansky/XiaoMi-Pro/tree/master/one-key-cpufriend)
 
 ## Configuration
 
@@ -26,10 +26,12 @@
 ## Credits
 
 - [Acidanthera](https://github.com/acidanthera)
-- [RehabMan](https://github.com/RehabMan) 
-- [daliansky](https://github.com/daliansky) 
+- [RehabMan](https://github.com/RehabMan)
 
 ## Change Log:
+
+- 2019.09.05
+	- Update Clover5064 & Kext & OC.
 
 - 2019.09.02
 	- Update Hotpatch & Kext & OC.

@@ -386,7 +386,11 @@
 		<dict>
 			<key>AvoidRuntimeDefrag</key>
 			<true/>
+			<key>DevirtualiseMmio</key>
+			<false/>
 			<key>DisableVariableWrite</key>
+			<false/>
+			<key>DisableSingleUser</key>
 			<false/>
 			<key>DiscardHibernateMap</key>
 			<false/>
@@ -564,6 +568,20 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/Lilu</string>
+				<key>MatchKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>AirPortAtheros40.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AirPortAtheros40</string>
 				<key>MatchKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -963,6 +981,8 @@
 			<string>Auto</string>
 			<key>HideSelf</key>
 			<false/>
+			<key>PollAppleHotKeys</key>
+			<false/>
 			<key>Resolution</key>
 			<string></string>
 			<key>ShowPicker</key>
@@ -985,6 +1005,8 @@
 		</dict>
 		<key>Security</key>
 		<dict>
+			<key>AllowNvramReset</key>
+			<false/>
 			<key>ExposeSensitiveData</key>
 			<integer>2</integer>
 			<key>HaltLevel</key>
@@ -1185,11 +1207,25 @@
 		<dict>
 			<key>AppleBootPolicy</key>
 			<false/>
+			<key>AppleEvent</key>
+			<false/>
+			<key>AppleImageConversion</key>
+			<false/>
+			<key>AppleKeyMap</key>
+			<false/>
+			<key>AppleUserInterfaceTheme</key>
+			<false/>
 			<key>ConsoleControl</key>
 			<true/>
 			<key>DataHub</key>
 			<false/>
 			<key>DeviceProperties</key>
+			<false/>
+			<key>FirmwareVolume</key>
+			<false/>
+			<key>HashServices</key>
+			<false/>
+			<key>UnicodeCollation</key>
 			<false/>
 		</dict>
 		<key>Quirks</key>
