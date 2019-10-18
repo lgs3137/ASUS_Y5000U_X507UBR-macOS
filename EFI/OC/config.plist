@@ -420,6 +420,8 @@
 				<data>AAAWWQ==</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal</string>
+				<key>complete-modeset-framebuffers</key>
+				<data>AAAAAAAAAAE=</data>
 				<key>device-id</key>
 				<data>FlkAAA==</data>
 				<key>disable-external-gpu</key>
@@ -662,6 +664,20 @@
 				<string>CPUFriendDataProvider.kext</string>
 				<key>Comment</key>
 				<string>Power Management</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>MatchKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>EFICheckDisabler.kext</string>
+				<key>Comment</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1021,6 +1037,8 @@
 		<key>Tools</key>
 		<array>
 			<dict>
+				<key>Arguments</key>
+				<string></string>
 				<key>Name</key>
 				<string>UEFI Shell</string>
 				<key>Comment</key>
@@ -1198,11 +1216,28 @@
 		<array>
 			<string>HfsPlus.efi</string>
 			<string>ApfsDriverLoader.efi</string>
-			<string>AppleUiSupport.efi</string>
-			<string>AppleGenericInput.efi</string>
 			<string>FwRuntimeServices.efi</string>
 			<string>VirtualSmc.efi</string>
 		</array>
+		<key>Input</key>
+		<dict>
+			<key>KeyForgetThreshold</key>
+			<integer>5</integer>
+			<key>KeyMergeThreshold</key>
+			<integer>2</integer>
+			<key>KeySupport</key>
+			<true/>
+			<key>KeySupportMode</key>
+			<string>Auto</string>
+			<key>KeySwap</key>
+			<false/>
+			<key>PointerSupport</key>
+			<false/>
+			<key>PointerSupportMode</key>
+			<string>ASUS</string>
+			<key>TimerResolution</key>
+			<integer>50000</integer>
+		</dict>
 		<key>Protocols</key>
 		<dict>
 			<key>AppleBootPolicy</key>
