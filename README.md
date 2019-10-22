@@ -30,6 +30,9 @@
 
 ## Change Log:
 
+- 2019.10.22
+	- Update Clover5097 & Kext.
+
 - 2019.10.18
 	- Update Clover5093 & Kext & OC.
 
