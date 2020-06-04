@@ -5,22 +5,11 @@
 	<key>Author</key>
 	<string>ClaudesTech</string>
 	<key>Description</key>
-	<string>ASUS Notebook's theme</string>
+	<string>ASUS Notebook&apos;s theme</string>
+	<key>Year</key>
+	<string>2019</string>
 	<key>Theme</key>
 	<dict>
-		<key>Anime</key>
-		<array>
-			<dict>
-				<key>FrameTime</key>
-				<integer>200</integer>
-				<key>Frames</key>
-				<integer>2</integer>
-				<key>ID</key>
-				<integer>4</integer>
-				<key>Path</key>
-				<string>options_anim</string>
-			</dict>
-		</array>
 		<key>Background</key>
 		<dict>
 			<key>Path</key>
@@ -82,7 +71,5 @@
 			<string>selection_small.png</string>
 		</dict>
 	</dict>
-	<key>Year</key>
-	<string>2019</string>
 </dict>
 </plist>
