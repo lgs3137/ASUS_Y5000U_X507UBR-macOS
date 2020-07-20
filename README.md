@@ -1,4 +1,4 @@
-# ASUS Y5000U(X507UBR) for macOS Catalina
+# ASUS Y5000U(X507UBR) for macOS Big Sur beta2 & Catalina & Mojave
 
 - [Enable macOS HiDPI](https://github.com/lgs3137/ASUS_Y5000U_X507UBR-macOS/tree/master/one-key-hidpi)
 - [CPUFriend](https://github.com/daliansky/XiaoMi-Pro/tree/master/one-key-cpufriend)
@@ -7,14 +7,14 @@
 
 | Specifications | Detail                                                  |
 | ------------------- | -------------------------------------------|
-| Computer model      | Y5000U(X507UBR) (MX110/GTX)                    |
+| Computer model      | Y5000U(X507UBR) (MX110/GTX)                |
 | Processor           | Intel Core i5-8250U/i7-8550U Processor     |
 | Memory              | 8GB/16GB Samsung DDR4 2400MHz              |
-| Hard Disk           | 128GB SSD 1TB HDD    |
+| Hard Disk           | 128GB SSD 1TB HDD   			   |
 | Integrated Graphics | Intel UHD Graphics 620                     |
-| Monitor             | CMO CMN15F5 FHD 1920x1080 (15.3 inch)        |
+| Monitor             | CMO CMN15F5 FHD 1920x1080 (15.3 inch)      |
 | Sound Card          | Realtek ALC256 (layout-id:66)              |
-| Wireless Card       | Atheros AR9565 Wireless                        |
+| Wireless Card       | Atheros AR9565 Wireless --> 1820A          |
 
 ## Features
 
@@ -29,6 +29,9 @@
 - [RehabMan](https://github.com/RehabMan)
 
 ## Change Log:
+
+- 2020.07.20
+	- Remove Clover & Update Kext(1820A) & OC0.6.0 support macOS Big Sur beta2.
 
 - 2020.06.04
 	- Update Clover5118 & Kext & OC0.6.0.
