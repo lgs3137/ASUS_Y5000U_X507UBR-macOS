@@ -1,4 +1,4 @@
-# ASUS Y5000U(X507UBR) for macOS Big Sur beta2 & Catalina & Mojave
+# ASUS Y5000U(X507UBR) for macOS Big Sur beta3 & Catalina & Mojave
 
 - [Enable macOS HiDPI](https://github.com/lgs3137/ASUS_Y5000U_X507UBR-macOS/tree/master/one-key-hidpi)
 - [CPUFriend](https://github.com/daliansky/XiaoMi-Pro/tree/master/one-key-cpufriend)
@@ -29,6 +29,9 @@
 - [RehabMan](https://github.com/RehabMan)
 
 ## Change Log:
+
+- 2020.07.24
+	- Update Kext & config.plist support macOS Big Sur beta3.
 
 - 2020.07.20
 	- Remove Clover & Update Kext(1820A) & OC0.6.0 support macOS Big Sur beta2.
