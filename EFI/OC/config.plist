@@ -364,7 +364,7 @@
                     <key>AAPL,slot-name</key>
                     <string>WLAN</string>
                     <key>compatible</key>
-                    <string>pci14e4,4331</string>
+                    <string>pci14e4,43a3</string>
                     <key>device_type</key>
                     <string>Airport Extreme</string>
                     <key>model</key>
@@ -741,7 +741,7 @@
                 </dict>
                 <dict>
                     <key>BundlePath</key>
-                    <string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcm4360_Injector.kext</string>
+                    <string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcmNIC_Injector.kext</string>
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>

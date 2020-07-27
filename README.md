@@ -30,6 +30,9 @@
 
 ## Change Log:
 
+- 2020.07.27
+	- Update Kext & config.plist for 1820A support macOS Big Sur beta3.
+
 - 2020.07.24
 	- Update Kext & config.plist support macOS Big Sur beta3.
 
