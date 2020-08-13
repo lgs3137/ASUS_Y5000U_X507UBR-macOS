@@ -844,7 +844,7 @@
                     <key>Comment</key>
                     <string>MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha (Delete this patch after unlocking MSR 0xE2)</string>
                     <key>Count</key>
-                    <integer>0</integer>
+                    <integer>1</integer>
                     <key>Enabled</key>
                     <true/>
                     <key>Find</key>
@@ -940,6 +940,8 @@
                 <integer>0</integer>
                 <key>DisplayLevel</key>
                 <integer>2147483650</integer>
+                <key>SerialInit</key>
+                <false/>
                 <key>SysReport</key>
                 <false/>
                 <key>Target</key>
@@ -963,6 +965,8 @@
                 <integer>2147483648</integer>
                 <key>ScanPolicy</key>
                 <integer>0</integer>
+                <key>SecureBootModel</key>
+                <string>Default</string>
                 <key>Vault</key>
                 <string>Optional</string>
             </dict>
@@ -991,7 +995,7 @@
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <dict>
                     <key>boot-args</key>
-                    <string>darkwake=0 dart=0 gfxrst=1 brcmfx-country=#a -lilubetaall vsmcgen=1 -disablegfxfirmware</string>
+                    <string>darkwake=0 dart=0 gfxrst=1 brcmfx-country=#a</string>
                     <key>run-efi-updater</key>
                     <string>No</string>
                     <key>csr-active-config</key>
@@ -1057,7 +1061,7 @@
                 <key>HideVerbose</key>
                 <true/>
                 <key>JumpstartHotPlug</key>
-                <false/>
+                <true/>
                 <key>MinDate</key>
                 <integer>-1</integer>
                 <key>MinVersion</key>
@@ -1149,9 +1153,13 @@
                 <false/>
                 <key>AppleImageConversion</key>
                 <false/>
+                <key>AppleImg4Verification</key>
+                <false/>
                 <key>AppleKeyMap</key>
                 <false/>
                 <key>AppleRtcRam</key>
+                <false/>
+                <key>AppleSecureBoot</key>
                 <false/>
                 <key>AppleSmcIo</key>
                 <true/>
