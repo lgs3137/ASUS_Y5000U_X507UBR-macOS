@@ -30,6 +30,9 @@
 
 ## Change Log:
 
+- 2020.11.21
+	- Update Kext & OC.
+
 - 2020.08.13
 	- Update Kext & OC support macOS Big Sur 11.0 Public beta1(20A5343j).
 
