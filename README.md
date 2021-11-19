@@ -1,4 +1,4 @@
-# ASUS Y5000U(X507UBR) for macOS Big Sur beta3 & Catalina & Mojave
+# ASUS Y5000U(X507UBR) for macOS Monterey & Big Sur
 
 - [Enable macOS HiDPI](https://github.com/lgs3137/ASUS_Y5000U_X507UBR-macOS/tree/master/one-key-hidpi)
 - [CPUFriend](https://github.com/daliansky/XiaoMi-Pro/tree/master/one-key-cpufriend)
@@ -21,7 +21,7 @@
 * Non-working
    * GPU (Nvidia MX110/GTX)
    * SD Card Reader
-   * SLEEP (Wait for Fix)
+   * SLEEP (Disable SLEEP)
 
 ## Credits
 
@@ -29,6 +29,9 @@
 - [RehabMan](https://github.com/RehabMan)
 
 ## Change Log:
+
+- 2021.11.19
+	- Update Kext & OC0.7.6 and Disable SLEEP.
 
 - 2021.03.06
 	- Update Kext & OC0.6.8.
