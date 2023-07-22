@@ -30,6 +30,9 @@
 
 ## Change Log:
 
+- 2023.07.22
+	- Update Kext & OC0.9.4 support macOS Ventura and Sonoma beta.
+
 - 2021.11.19
 	- Update Kext & OC0.7.6 and Disable SLEEP.
 
