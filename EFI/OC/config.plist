@@ -16,14 +16,6 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>Allow ACPI objects to be enabled on Darwin</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-OSYS.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
                     <string>AsusTek Battery</string>
                     <key>Enabled</key>
                     <true/>
@@ -123,36 +115,6 @@
             <array/>
             <key>Patch</key>
             <array>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
-                    <string>change _OSI to XOSI</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Find</key>
-                    <data>X09TSQ==</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>WE9TSQ==</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data></data>
-                </dict>
                 <dict>
                     <key>Base</key>
                     <string></string>
@@ -789,7 +751,7 @@
                     <key>BaseSkip</key>
                     <integer>0</integer>
                     <key>Comment</key>
-                    <string>_S3 to XS3</string>
+                    <string>_S3 to XS3 Disable SLEEP</string>
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
@@ -1618,7 +1580,7 @@
                 <key>FuzzyMatch</key>
                 <false/>
                 <key>KernelArch</key>
-                <string>Auto</string>
+                <string>x86_64</string>
                 <key>KernelCache</key>
                 <string>Auto</string>
             </dict>
@@ -1636,11 +1598,11 @@
                 <key>HibernateSkipsPicker</key>
                 <true/>
                 <key>HideAuxiliary</key>
-                <false/>
+                <true/>
                 <key>InstanceIdentifier</key>
                 <string></string>
                 <key>LauncherOption</key>
-                <string>System</string>
+                <string>Full</string>
                 <key>LauncherPath</key>
                 <string>Default</string>
                 <key>PickerAttributes</key>
@@ -1650,7 +1612,7 @@
                 <key>PickerMode</key>
                 <string>External</string>
                 <key>PickerVariant</key>
-                <string>ASUS</string>
+                <string>Default</string>
                 <key>PollAppleHotKeys</key>
                 <true/>
                 <key>ShowPicker</key>
@@ -1677,7 +1639,7 @@
                 <key>SysReport</key>
                 <false/>
                 <key>Target</key>
-                <integer>3</integer>
+                <integer>0</integer>
             </dict>
             <key>Entries</key>
             <array/>
@@ -1688,7 +1650,7 @@
                 <key>ApECID</key>
                 <integer>0</integer>
                 <key>AuthRestart</key>
-                <false/>
+                <true/>
                 <key>BlacklistAppleUpdate</key>
                 <true/>
                 <key>DmgLoading</key>
@@ -1696,7 +1658,7 @@
                 <key>EnablePassword</key>
                 <false/>
                 <key>ExposeSensitiveData</key>
-                <integer>6</integer>
+                <integer>3</integer>
                 <key>HaltLevel</key>
                 <integer>2147483648</integer>
                 <key>PasswordHash</key>
@@ -1706,39 +1668,12 @@
                 <key>ScanPolicy</key>
                 <integer>0</integer>
                 <key>SecureBootModel</key>
-                <string>j140a</string>
+                <string>Disabled</string>
                 <key>Vault</key>
                 <string>Optional</string>
             </dict>
             <key>Serial</key>
             <dict>
-                <key>Custom</key>
-                <dict>
-                    <key>BaudRate</key>
-                    <integer>115200</integer>
-                    <key>ClockRate</key>
-                    <integer>1843200</integer>
-                    <key>DetectCable</key>
-                    <false/>
-                    <key>ExtendedTxFifoSize</key>
-                    <integer>64</integer>
-                    <key>FifoControl</key>
-                    <integer>7</integer>
-                    <key>LineControl</key>
-                    <integer>7</integer>
-                    <key>PciDeviceInfo</key>
-                    <data>/w==</data>
-                    <key>RegisterAccessWidth</key>
-                    <integer>8</integer>
-                    <key>RegisterBase</key>
-                    <integer>1016</integer>
-                    <key>RegisterStride</key>
-                    <integer>1</integer>
-                    <key>UseHardwareFlowControl</key>
-                    <false/>
-                    <key>UseMmio</key>
-                    <false/>
-                </dict>
                 <key>Init</key>
                 <false/>
                 <key>Override</key>
@@ -1796,57 +1731,21 @@
         <dict>
             <key>Add</key>
             <dict>
-                <key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
-                <dict>
-                    <key>DefaultBackgroundColor</key>
-                    <data>AAAAAA==</data>
-                    <key>UIScale</key>
-                    <data>AQ==</data>
-                </dict>
-                <key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
-                <dict>
-                    <key>rtc-blacklist</key>
-                    <data></data>
-                </dict>
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <dict>
-                    <key>EnableTRIM</key>
-                    <data>dHJ1ZQ==</data>
-                    <key>SystemAudioVolume</key>
-                    <data>Rg==</data>
-                    <key>bluetoothExternalDongleFailed</key>
-                    <data>AA==</data>
-                    <key>bluetoothInternalControllerInfo</key>
-                    <data>AAAAAAAAAAAAAAAAAAA=</data>
                     <key>boot-args</key>
-                    <string>revpatch=sbvmm brcmfx-aspm brcmfx-country=#a</string>
+                    <string>darkwake=0 brcmfx-aspm brcmfx-country=#a</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
-                    <key>prev-lang:kbd</key>
-                    <data>ZW4tVVM6MA==</data>
-                </dict>
-                <key>E09B9297-7928-4440-9AAB-D1F8536FBF0A</key>
-                <dict>
-                    <key>hbfx-ahbm</key>
-                    <string>61</string>
+                    <key>run-efi-updater</key>
+                    <string>No</string>
                 </dict>
             </dict>
             <key>Delete</key>
             <dict>
-                <key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
-                <array>
-                    <string>UIScale</string>
-                    <string>DefaultBackgroundColor</string>
-                </array>
-                <key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
-                <array>
-                    <string>rtc-blacklist</string>
-                </array>
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <array>
                     <string>boot-args</string>
-                    <string>bluetoothInternalControllerInfo</string>
-                    <string>bluetoothExternalDongleFailed</string>
                 </array>
             </dict>
             <key>LegacyOverwrite</key>
@@ -1854,31 +1753,7 @@
             <key>WriteFlash</key>
             <true/>
             <key>LegacySchema</key>
-            <dict>
-                <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
-                <array>
-                    <string>EFILoginHiDPI</string>
-                    <string>EFIBluetoothDelay</string>
-                    <string>LocationServicesEnabled</string>
-                    <string>SystemAudioVolume</string>
-                    <string>SystemAudioVolumeDB</string>
-                    <string>SystemAudioVolumeSaved</string>
-                    <string>bluetoothActiveControllerInfo</string>
-                    <string>bluetoothInternalControllerInfo</string>
-                    <string>flagstate</string>
-                    <string>fmm-computer-name</string>
-                    <string>nvda_drv</string>
-                    <string>prev-lang:kbd</string>
-                </array>
-                <key>8BE4DF61-93CA-11D2-AA0D-00E098032B8C</key>
-                <array>
-                    <string>Boot0080</string>
-                    <string>Boot0081</string>
-                    <string>Boot0082</string>
-                    <string>BootNext</string>
-                    <string>BootOrder</string>
-                </array>
-            </dict>
+            <dict/>
         </dict>
         <key>PlatformInfo</key>
         <dict>
